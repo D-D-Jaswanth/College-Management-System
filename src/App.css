@@ -1,0 +1,733 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600&family=Open+Sans:wght@300;400;500;600&family=Poppins:wght@200;300;400;500;600;800;900&family=Roboto:wght@300;400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', 'Noto Sans', 'Open Sans', 'Roboto', sans-serif;
+}
+
+body {
+  background: #FCFCFD;
+}
+
+header {
+  height: 86.3vh;
+}
+
+header img {
+  height: 86.3vh;
+  background-position: center;
+  background-size: cover;
+}
+
+header h5 {
+  font-size: 30px;
+}
+
+header p {
+  font-size: 20px;
+}
+
+section {
+  padding: 1% 8%;
+  /* background: red; */
+}
+
+
+/******************* About Page ***********************/
+
+.about {
+  height: 86.3vh;
+  display: flex;
+  padding: 1% 6%;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+.about img {
+  height: 300px;
+  width: 500px;
+  border-radius: 10px;
+}
+
+/* Login Page */
+
+.login-container {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.login-container .login-body {
+  /* background: #fff; */
+  width: 500px;
+  border-radius: 2px;
+  box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+}
+
+.login-body form input {
+  height: 50px;
+}
+
+.login-container .login-body button {
+  width: 100%;
+  color: #fff;
+  padding: 12px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-bottom: 20px;
+}
+
+
+.login-container .login-body span {
+  float: right;
+}
+
+.login-body span .link {
+  margin-left: 10px;
+}
+
+/* Register Page */
+
+.register-container {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.register-container .register-body {
+  /* background: #fff; */
+  width: 550px;
+  border-radius: 2px;
+  box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.1);
+  padding: 13px;
+}
+
+.register-body form input {
+  height: 45px;
+}
+
+.register-body form select {
+  height: 45px;
+  margin-bottom: 10px;
+}
+
+.register-container .register-body button {
+  width: 100%;
+  color: #fff;
+  padding: 12px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-bottom: 20px;
+}
+
+
+.register-container .register-body span {
+  float: right;
+}
+
+.register-body span .link {
+  margin-left: 10px;
+}
+
+
+/**************** Not Found **********************/
+
+.notfound {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.notfound .container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.notfound .container h1{
+  font-size: 150px;
+}
+
+.notfound .container p{
+  font-size: 50px;
+}
+
+
+/**************** Student Dashboard *****************/
+
+.container {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.container .left {
+  background: #fff;
+  box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.container .right {
+  background: #fff;
+  box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/******************* Student Profile ************************/
+
+.profile .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile .container input {
+  height: 50px;
+  margin-top: 5px;
+}
+
+.profile .container button {
+  padding: 10px;
+}
+
+
+/*********************** Student Events ************************/
+
+.events-container {
+  margin-top: 10px;
+}
+
+/************************ Student Class Shedule ************************/
+
+.student-class-container {
+  margin-top: 10px;
+}
+
+
+/************************ Student Exam Shedule ************************/
+
+.student-exam-container {
+  margin-top: 10px;
+}
+
+
+/********************* Student Messages ************************/
+
+.student-messages {
+  margin-top: 10px;
+}
+
+.student-messages .container {
+  display: flex;
+  flex-direction: column;
+  padding: 1% 5%;
+}
+
+
+/********************* Student Issue Books *********************/
+
+.student-issue-books .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.student-issue-books .container input {
+  height: 55px;
+}
+
+
+/******************** Admin Home Page ***********************/
+
+.admin-homepage .container.middle {
+  margin-top: 20px;
+}
+
+.admin-homepage .container.middle .card-container {
+  display: flex;
+  gap: 20px;
+}
+
+.admin-homepage .card-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background: #fff;
+  box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 5% 8%;
+}
+
+.admin-homepage .card-box .icon {
+  font-size: 40px;
+}
+
+/********************* Admin Courses *********************/
+
+.admin-courses .course-link {
+  /* background: #4343FD; */
+  /* color: #fff; */
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  float: right;
+}
+
+.admin-courses .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-courses .container input {
+  height: 55px;
+}
+
+/***************** Add Courses *********************/
+
+.add-courses .container form {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.add-courses .container input {
+  height: 50px;
+  margin-top: 5px;
+}
+
+.add-courses .container button {
+  margin-top: 10px;
+}
+
+/******************** Admin Students *********************/
+
+.admin-students-container .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-students-container .container .link {
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.admin-students-container .container input {
+  height: 55px;
+}
+
+/*************** Admin Add Students ************************/
+
+.admin-add-students .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-add-students .container input {
+  height: 50px;
+  margin-top: 5px;
+}
+
+.admin-add-students .container select {
+  height: 50px;
+  margin-top: 5px;
+}
+
+.admin-add-students button {
+  padding: 10px;
+}
+
+/******************** Admin Faculty *********************/
+
+.admin-faculty-container .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-faculty-container .container .link {
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.admin-faculty-container .container input {
+  height: 55px;
+}
+
+
+/*************** Admin Add Faculty ************************/
+
+.admin-add-faculty .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-add-faculty .container input {
+  height: 50px;
+  margin-top: 5px;
+}
+
+.admin-add-faculty .container select {
+  height: 50px;
+  margin-top: 5px;
+}
+
+.admin-add-faculty button {
+  padding: 10px;
+}
+
+/********************* Admin Events *********************/
+
+.admin-events .events-link {
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.admin-events .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-events .container input {
+  height: 55px;
+}
+
+/***************** Add Events *********************/
+
+.add-events .container form {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.add-events .container input {
+  height: 50px;
+  margin-top: 5px;
+}
+
+.add-events .container button {
+  margin-top: 10px;
+}
+
+/********************* Admin Subjects *********************/
+
+.admin-subjects .events-link {
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  float: right;
+}
+
+.admin-subjects .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-subjects .container input {
+  height: 55px;
+}
+
+/********************* Admin Subjects Assing *********************/
+
+.admin-subjects-assign .events-link {
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  float: right;
+}
+
+.admin-subjects-assign .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-subjects-assign .container input {
+  height: 55px;
+}
+
+
+/******************** Admin Students Attendance *********************/
+
+.admin-students-attendance-container .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-students-attendance-container .container table {
+  margin-top: 10px;
+}
+
+.admin-students-attendance-container .container form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.admin-students-attendance-container .container .date {
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 5px;
+}
+
+
+/******************** Admin Faculty Attendance *********************/
+
+.admin-faculty-attendance-container .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-faculty-attendance-container .container table {
+  margin-top: 10px;
+}
+
+/******************** Admin Fees *********************/
+
+.admin-fees-container .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-fees-container .container .link {
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.admin-fees-container .container input {
+  height: 55px;
+}
+
+/***************** Add Fees *********************/
+
+.add-fees .container form {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.add-fees .container input {
+  height: 50px;
+  margin-top: 5px;
+}
+
+.add-fees .container select {
+  height: 50px;
+  margin-top: 5px;
+}
+
+.add-fees .container button {
+  margin-top: 10px;
+}
+
+/*************** Admin View Students ************************/
+
+.admin-view-students .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-view-students .container input {
+  height: 50px;
+  margin-top: 5px;
+}
+
+.admin-view-students button {
+  padding: 10px;
+}
+
+/***************** Add Subjects *********************/
+
+.add-subjects .container form {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.add-subjects .container input {
+  height: 50px;
+  margin-top: 5px;
+}
+
+.add-subjects .container select {
+  height: 50px;
+  margin-top: 5px;
+}
+
+.add-subjects .container button {
+  margin-top: 10px;
+}
+
+
+/********************* Admin Messages ************************/
+
+.admin-messages {
+  margin-top: 10px;
+}
+
+.admin-messages .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-messages .container input {
+  height: 50px;
+}
+
+.admin-messages .container .link {
+  padding: 10px 20px;
+}
+
+.admin-messages .container textarea {
+  height: 150px;
+}
+
+.admin-messages .container button {
+  width: 100%;
+  padding: 1% 0;
+}
+
+
+/***************** Add Books *********************/
+
+.add-books .container form {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.add-books .container input {
+  height: 50px;
+  margin-top: 5px;
+}
+
+.add-books .container select {
+  height: 50px;
+  margin-top: 5px;
+}
+
+.add-books .container button {
+  margin-top: 10px;
+}
+
+
+/********************* Admin Books Category *********************/
+
+.admin-books-category .course-link {
+  /* background: #4343FD; */
+  /* color: #fff; */
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  float: right;
+}
+
+.admin-books-category .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-books-category .container input {
+  height: 55px;
+}
+
+
+/****************** Faculty Message ********************/
+
+.faculty-messages {
+  margin-top: 10px;
+}
+
+.faculty-messages .container {
+  display: flex;
+  flex-direction: column;
+  padding: 1% 5%;
+}
+
+/********************** Faculty Announcements ***********************/
+
+.faculty-announcement {
+  margin-top: 10px;
+}
+
+
+/*************** Faculty View Students ************************/
+
+.faculty-view-students {
+  margin-top: 20px;
+}
+
+.faculty-view-students .container input {
+  height: 50px;
+  margin-top: 5px;
+}
+
+.faculty-view-students button {
+  padding: 10px;
+}
+
+/*********************** Faculty View Events *************************/
+
+.faculty-events {
+  margin-top: 20px;
+}
+
+/************************ Faculty Take Attendance ***************************/
+
+.faculty-students-attendance-container .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.faculty-students-attendance-container .container table {
+  margin-top: 10px;
+}
+
+.faculty-students-attendance-container .container form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.faculty-students-attendance-container .container form select {
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 5px;
+}
+
+
+/*************************** Faculty Leave ****************************/
+
+.faculty-leave .container form {
+  width: 100%;
+}
+
+.faculty-leave h5 {
+  padding: 2% 9%;
+}
+
+.faculty-leave .container form input {
+  height: 50px;
+}
+
+.faculty-leave .container button {
+  width: 100%;
+  padding: 10px;
+}
